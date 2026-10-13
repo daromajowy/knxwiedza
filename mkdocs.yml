@@ -75,6 +75,7 @@ nav:
       - podstawy/index.md
       - Czym jest KNX: podstawy/czym-jest-knx.md
       - Architektura systemu: podstawy/architektura.md
+      - Topologia KNX TP: podstawy/topologia.md
       - Adresowanie i działanie grup: podstawy/adresowanie.md
   - 2. Praktyka w ETS6:
       - praktyka/index.md
