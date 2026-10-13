@@ -80,3 +80,10 @@ Lektor: wyjście **A** aktora załącza światło 1, wyjście **B** światło 2.
 - Nacisk kanału A przycisku wysyła telegram „On/Off” na 0/0/1, a aktor włącza lub wyłącza kanał A. Kanał B działa tak samo przez 0/0/2.
 - Układ trzypoziomowy z filmu to: grupa główna = funkcje centralne albo piętro, grupa środkowa = rodzaj funkcji (oświetlenie, ściemnianie, rolety), adres = konkretny obwód.
 - Kolejność pracy w ETS: najpierw struktura adresów, potem parametry urządzeń, na końcu łączenie obiektów z adresami przez przeciąganie. Wgranie do urządzeń (Download) to osobny krok, którego film nie pokazuje.
+
+<figure class="film" markdown="0">
+  <div class="video">
+    <video controls preload="metadata" src="https://wbt6.knx.org/pluginfile.php/77/mod_scorm/content/5/scos/Chapter3-5_en/res/data/video1.mp4"></video>
+  </div>
+  <figcaption>Film szkoleniowy KNX eCampus, rozdział 3.5. Jeśli się nie odtwarza, <a href="https://wbt6.knx.org/pluginfile.php/77/mod_scorm/content/5/scos/Chapter3-5_en/res/data/video1.mp4">otwórz go bezpośrednio</a> (może wymagać zalogowania w eCampus).</figcaption>
+</figure>
