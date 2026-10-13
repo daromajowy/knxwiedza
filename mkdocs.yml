@@ -60,21 +60,34 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+hooks:
+  - hooks/spis_tresci.py
+
+validation:
+  anchors: warn
+
 nav:
-  - Start: index.md
-  - Podstawy:
+  - Start:
+      - index.md
+      - Spis treści: spis-tresci.md
+      - Jak rozwijać portal: o-portalu.md
+  - 1. Podstawy:
+      - podstawy/index.md
       - Czym jest KNX: podstawy/czym-jest-knx.md
       - Architektura systemu: podstawy/architektura.md
       - Adresowanie i działanie grup: podstawy/adresowanie.md
-  - Praktyka w ETS6:
+  - 2. Praktyka w ETS6:
+      - praktyka/index.md
       - Adresy grupowe krok po kroku: praktyka/ets6-adresy-grupowe.md
       - "Film ETS6: transkrypcja": praktyka/grouping-transkrypcja.md
-  - Technologia:
+  - 3. Technologia:
+      - technologia/index.md
       - Media i bezpieczeństwo: technologia/media-i-bezpieczenstwo.md
       - Zastosowania: technologia/zastosowania.md
       - ETS i oprogramowanie: technologia/ets-i-oprogramowanie.md
       - Serwery wizualizacji: technologia/serwery-wizualizacji.md
-  - Nauka:
+  - 4. Nauka:
+      - nauka/index.md
       - Ścieżka nauki i certyfikacji: nauka/sciezka-certyfikacji.md
-      - Zalety, ograniczenia i słowniczek: slowniczek.md
-      - Źródła: zrodla.md
+      - Zalety, ograniczenia i słowniczek: nauka/slowniczek.md
+      - Źródła: nauka/zrodla.md

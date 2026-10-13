@@ -17,5 +17,5 @@ Opracowanie powstało na podstawie stron knx.org (otwartych 12.10.2026), filmu s
 ## Inne materiały
 
 - [Opracowanie online (Claude Doc)](https://claude.ai/code/artifact/99d8f35d-e05c-4811-80dc-4e57774c6d77): wersja źródłowa tego portalu.
-- Film `grouping.mp4` (ETS6, 2:55): zob. [transkrypcję i tłumaczenie](praktyka/grouping-transkrypcja.md).
-- Zrzut tabeli z prezentacji EL-TEAM Group Szkolenia: zob. [serwery wizualizacji](technologia/serwery-wizualizacji.md).
+- Film `grouping.mp4` (ETS6, 2:55): zob. [transkrypcję i tłumaczenie](../praktyka/grouping-transkrypcja.md).
+- Zrzut tabeli z prezentacji EL-TEAM Group Szkolenia: zob. [serwery wizualizacji](../technologia/serwery-wizualizacji.md).

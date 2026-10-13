@@ -7,11 +7,11 @@ hide:
 
 KNX to otwarty, międzynarodowy standard automatyki domów i budynków. Ten portal zbiera w jednym miejscu opracowanie wiedzy o KNX: od podstaw standardu, przez adresowanie i pracę w ETS6, po ścieżkę certyfikacji. Treść powstała na podstawie stron [knx.org](https://www.knx.org/) i materiałów szkoleniowych; fragmenty spoza knx.org są wyraźnie oznaczone.
 
-Skorzystaj z wyszukiwarki u góry strony albo zacznij od jednego z działów.
+Skorzystaj z wyszukiwarki u góry strony, otwórz [pełny spis treści](spis-tresci.md) albo zacznij od jednego z rozdziałów.
 
 <div class="grid cards" markdown>
 
--   :material-book-open-variant:{ .lg .middle } **Podstawy**
+-   :material-book-open-variant:{ .lg .middle } **1. Podstawy**
 
     ---
 
@@ -19,7 +19,7 @@ Skorzystaj z wyszukiwarki u góry strony albo zacznij od jednego z działów.
 
     [:octicons-arrow-right-24: Czym jest KNX](podstawy/czym-jest-knx.md)
 
--   :material-tools:{ .lg .middle } **Praktyka w ETS6**
+-   :material-tools:{ .lg .middle } **2. Praktyka w ETS6**
 
     ---
 
@@ -27,7 +27,7 @@ Skorzystaj z wyszukiwarki u góry strony albo zacznij od jednego z działów.
 
     [:octicons-arrow-right-24: Adresy grupowe w ETS6](praktyka/ets6-adresy-grupowe.md)
 
--   :material-lan:{ .lg .middle } **Technologia**
+-   :material-lan:{ .lg .middle } **3. Technologia**
 
     ---
 
@@ -35,7 +35,7 @@ Skorzystaj z wyszukiwarki u góry strony albo zacznij od jednego z działów.
 
     [:octicons-arrow-right-24: Media i bezpieczeństwo](technologia/media-i-bezpieczenstwo.md)
 
--   :material-school:{ .lg .middle } **Nauka i certyfikacja**
+-   :material-school:{ .lg .middle } **4. Nauka i certyfikacja**
 
     ---
 
