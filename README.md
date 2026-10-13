@@ -36,3 +36,9 @@ mkdocs serve
 ```
 
 Strona będzie pod http://127.0.0.1:8000/.
+
+## Publikacja na własny hosting (SSH)
+
+Workflow [`.github/workflows/deploy-ssh.yml`](.github/workflows/deploy-ssh.yml) po każdym pushu do `main` buduje stronę i wysyła ją przez SSH (rsync) na własny serwer. Działa dopiero po dodaniu sekretów w **Settings → Secrets and variables → Actions**: `SSH_HOST`, `SSH_PORT`, `SSH_USER`, `SSH_KEY` (klucz prywatny), `SSH_PATH` (katalog docelowy) oraz `SSH_KEY_PASSPHRASE`, jeśli klucz ma hasło (cPanel wymaga hasła przy generowaniu klucza). Bez nich jest pomijany.
+
+Hasło do strony ustawia się na serwerze plikami `.htaccess` i `.htpasswd` w katalogu docelowym; publikacja ich nie usuwa.
