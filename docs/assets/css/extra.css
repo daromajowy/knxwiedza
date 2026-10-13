@@ -1,0 +1,10 @@
+.md-typeset figure.knx-diagram { margin: 1.5em auto; width: 100%; max-width: 760px; display: block; text-align: center; }
+.knx-diagram svg { width: 100%; max-width: 760px; height: auto; }
+.knx-diagram figcaption { font-size: .8rem; color: var(--md-default-fg-color--light); }
+.knx-diagram .d-ink { fill: var(--md-default-fg-color); }
+.knx-diagram .d-quiet { fill: var(--md-default-fg-color--light); }
+.knx-diagram .d-edge { stroke: var(--md-default-fg-color--lighter); stroke-width: 1.25; }
+.knx-diagram .d-fill-edge { fill: var(--md-default-fg-color--lighter); }
+.knx-diagram .d-accent { fill: var(--md-primary-fg-color); fill-opacity: .12; stroke: var(--md-primary-fg-color); stroke-width: 2; }
+.knx-diagram .d-tint { fill: var(--md-default-fg-color--lightest); }
+.md-typeset table:not([class]) { font-size: .72rem; }

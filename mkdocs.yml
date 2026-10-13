@@ -1,0 +1,80 @@
+site_name: Portal wiedzy KNX
+site_description: Opracowanie wiedzy o standardzie KNX po polsku – podstawy, adresowanie, ETS6, certyfikacja.
+site_url: https://daromajowy.github.io/knxwiedza/
+repo_url: https://github.com/daromajowy/knxwiedza
+repo_name: daromajowy/knxwiedza
+edit_uri: edit/main/docs/
+copyright: Opracowanie na podstawie knx.org i materiałów szkoleniowych · Darek
+
+theme:
+  name: material
+  language: pl
+  icon:
+    logo: material/home-automation
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Tryb ciemny
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Tryb jasny
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.tabs.link
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-,:!=\[\]()"/]+|\.(?!\d)'
+
+extra_css:
+  - assets/css/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Start: index.md
+  - Podstawy:
+      - Czym jest KNX: podstawy/czym-jest-knx.md
+      - Architektura systemu: podstawy/architektura.md
+      - Adresowanie i działanie grup: podstawy/adresowanie.md
+  - Praktyka w ETS6:
+      - Adresy grupowe krok po kroku: praktyka/ets6-adresy-grupowe.md
+      - "Film ETS6: transkrypcja": praktyka/grouping-transkrypcja.md
+  - Technologia:
+      - Media i bezpieczeństwo: technologia/media-i-bezpieczenstwo.md
+      - Zastosowania: technologia/zastosowania.md
+      - ETS i oprogramowanie: technologia/ets-i-oprogramowanie.md
+      - Serwery wizualizacji: technologia/serwery-wizualizacji.md
+  - Nauka:
+      - Ścieżka nauki i certyfikacji: nauka/sciezka-certyfikacji.md
+      - Zalety, ograniczenia i słowniczek: slowniczek.md
+      - Źródła: zrodla.md
